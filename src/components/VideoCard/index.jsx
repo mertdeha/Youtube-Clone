@@ -29,7 +29,7 @@ const VideoCard = ({ video, isRow }) => {
             {/* Alt detay alanı */}
             <div className={`${!isRow && "mt-4"} flex items-center gap-4`}>
                 <img
-                    src={video.channelThumbnail[0].url}
+                    src={video?.thumbnail[0]?.url}
                     alt="chanel-pic"
                     className="size-11 rounded-full pp" />
                 <div>
